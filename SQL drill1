@@ -24,4 +24,6 @@ SELECT
 FROM
 	weather
 WHERE
-	zip = 94301;
+	zip = 94301 AND
+	events LIKE 'Rain';
+	
